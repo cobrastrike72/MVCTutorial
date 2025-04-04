@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Student>
+@{
+    // Layout = "_Layout2";
+	ViewBag.Title = "Index";
+}
+
+    <a href="student/create" class="btn btn-primary">Create</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+				<th>Name</th>
+				<th>Age</th>
+                <th>Dept</th>
+                <th colspan="3">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model.Count() == 0)
+            {
+                <tr>
+                    <td colspan="4">No record found.</td>
+                </tr>
+            }
+            else
+            {
+                foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.Id</td>
+                        <td>@student.Name</td>
+						<td>@student.Age</td>
+						<td>@student.Department.DeptName</td>
+                        <td> <a class="btn btn-primary" asp-controller="student" asp-action="details" asp-route-id="@student.Id">Details </a> </td>
+                        <td> <a class="btn btn-warning" asp-controller="student" asp-action="edit" asp-route-id="@student.Id">Edit </a> </td>
+                        <td> <a class="btn btn-danger" asp-controller="student" asp-action="delete" onclick="return confirm('Are you sure to delete?')" asp-route-id="@student.Id">Delete </a> </td>
+                    </tr>
+				}
+			}
+
+
+        </tbody>
+    </table>

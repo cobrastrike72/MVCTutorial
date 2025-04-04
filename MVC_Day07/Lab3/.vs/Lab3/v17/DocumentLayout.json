@@ -1,0 +1,692 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\data\\itidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\data\\itidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Migrations\\20250404044909_rolesAndUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab3\\Migrations\\20250404044909_rolesAndUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\controllers\\statemanagment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\controllers\\statemanagment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\statemanagment\\setstatebysession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\statemanagment\\setstatebysession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\statemanagment\\getstatefromsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\statemanagment\\getstatefromsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\statemanagment\\getstatefromcookies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\statemanagment\\getstatefromcookies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\statemanagment\\setstatebycookies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\statemanagment\\setstatebycookies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\repositories\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\repositories\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\validators\\myvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\validators\\myvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\student\\createupdatepartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\student\\createupdatepartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\student\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\student\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\migrations\\20250323143555_thirdone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\migrations\\20250323143555_thirdone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day03\\Lab3\\Lab3\\Migrations\\20250323121815_secondone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\migrations\\20250323123645_firstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\migrations\\20250323123645_firstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|e:\\iti-intake-45\\15-c#\\mvc\\mvc_day07\\lab3\\lab3\\migrations\\20250323154521_fourthone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ED554-7B31-40CA-B065-01291BF6F835}|Lab3\\Lab3.csproj|solutionrelative:lab3\\migrations\\20250323154521_fourthone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout2.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Shared\\_Layout2.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Shared\\_Layout2.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T23:54:57.812Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Lab3\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Lab3\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T11:58:55.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA3wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T04:03:07.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wDMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T04:56:49.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Lab3\\Controllers\\TestController.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Lab3\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAywBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:55:52.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Lab3\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Lab3\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:00:30.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Lab3\\Models\\Department.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\Department.cs",
+              "RelativeToolTip": "Lab3\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T11:51:59.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Role.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Lab3\\Models\\Role.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\Role.cs",
+              "RelativeToolTip": "Lab3\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:42:58.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Lab3\\Models\\Student.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\Student.cs",
+              "RelativeToolTip": "Lab3\\Models\\Student.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA3wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T11:51:42.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Lab3\\Models\\User.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Models\\User.cs",
+              "RelativeToolTip": "Lab3\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:41:49.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Lab3\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Lab3\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:03:46.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Lab3\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Lab3\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:52:35.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T04:22:24.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T04:06:49.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAA3wBwAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T23:55:47.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITIDBContext.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Data\\ITIDBContext.cs",
+              "RelativeDocumentMoniker": "Lab3\\Data\\ITIDBContext.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Data\\ITIDBContext.cs",
+              "RelativeToolTip": "Lab3\\Data\\ITIDBContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T12:00:43.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250404044909_rolesAndUsers.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Migrations\\20250404044909_rolesAndUsers.cs",
+              "RelativeDocumentMoniker": "Lab3\\Migrations\\20250404044909_rolesAndUsers.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Migrations\\20250404044909_rolesAndUsers.cs",
+              "RelativeToolTip": "Lab3\\Migrations\\20250404044909_rolesAndUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:49:09.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Program.cs",
+              "RelativeDocumentMoniker": "Lab3\\Program.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Program.cs",
+              "RelativeToolTip": "Lab3\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwEMAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:00:39.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetStateFromSession.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\StateManagment\\GetStateFromSession.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\StateManagment\\GetStateFromSession.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\StateManagment\\GetStateFromSession.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\StateManagment\\GetStateFromSession.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T04:36:42.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SetStateBySession.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\StateManagment\\SetStateBySession.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\StateManagment\\SetStateBySession.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\StateManagment\\SetStateBySession.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\StateManagment\\SetStateBySession.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T04:34:05.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StateManagment.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Controllers\\StateManagment.cs",
+              "RelativeDocumentMoniker": "Lab3\\Controllers\\StateManagment.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Controllers\\StateManagment.cs",
+              "RelativeToolTip": "Lab3\\Controllers\\StateManagment.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAzwCcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T04:02:11.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Lab3\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Lab3\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T12:21:54.051Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SetStateByCookies.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\StateManagment\\SetStateByCookies.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\StateManagment\\SetStateByCookies.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\StateManagment\\SetStateByCookies.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\StateManagment\\SetStateByCookies.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T04:05:38.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetStateFromCookies.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\StateManagment\\GetStateFromCookies.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\StateManagment\\GetStateFromCookies.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\StateManagment\\GetStateFromCookies.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\StateManagment\\GetStateFromCookies.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T04:08:11.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Repositories\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "Lab3\\Repositories\\StudentRepo.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Repositories\\StudentRepo.cs",
+              "RelativeToolTip": "Lab3\\Repositories\\StudentRepo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:48:31.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DepartmentRepo.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Repositories\\DepartmentRepo.cs",
+              "RelativeDocumentMoniker": "Lab3\\Repositories\\DepartmentRepo.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Repositories\\DepartmentRepo.cs",
+              "RelativeToolTip": "Lab3\\Repositories\\DepartmentRepo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T01:26:10.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MyValidatorAttribute.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Validators\\MyValidatorAttribute.cs",
+              "RelativeDocumentMoniker": "Lab3\\Validators\\MyValidatorAttribute.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Validators\\MyValidatorAttribute.cs",
+              "RelativeToolTip": "Lab3\\Validators\\MyValidatorAttribute.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA3wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T23:29:32.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Student\\_ViewStart.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\_ViewStart.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Student\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T00:33:40.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "site.js",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Lab3\\wwwroot\\js\\site.js",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Lab3\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-26T15:45:32.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250323154521_fourthone.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Migrations\\20250323154521_fourthone.cs",
+              "RelativeDocumentMoniker": "Lab3\\Migrations\\20250323154521_fourthone.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Migrations\\20250323154521_fourthone.cs",
+              "RelativeToolTip": "Lab3\\Migrations\\20250323154521_fourthone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:45:21.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Lab3\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Lab3\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA0wBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-23T14:59:25.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250323143555_thirdone.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Migrations\\20250323143555_thirdone.cs",
+              "RelativeDocumentMoniker": "Lab3\\Migrations\\20250323143555_thirdone.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Migrations\\20250323143555_thirdone.cs",
+              "RelativeToolTip": "Lab3\\Migrations\\20250323143555_thirdone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:35:55.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateUpdatePartialView.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\CreateUpdatePartialView.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Student\\CreateUpdatePartialView.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\CreateUpdatePartialView.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Student\\CreateUpdatePartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T14:09:41.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T13:44:02.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Student\\Details.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T13:11:46.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Student\\Create.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAA3wBgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T12:44:38.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250323123645_firstone.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Migrations\\20250323123645_firstone.cs",
+              "RelativeDocumentMoniker": "Lab3\\Migrations\\20250323123645_firstone.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Migrations\\20250323123645_firstone.cs",
+              "RelativeToolTip": "Lab3\\Migrations\\20250323123645_firstone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T12:36:45.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Student\\Index.cshtml",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day07\\Lab3\\Lab3\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAzwCMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T12:26:47.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250323121815_secondone.cs",
+              "DocumentMoniker": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day03\\Lab3\\Lab3\\Migrations\\20250323121815_secondone.cs",
+              "RelativeDocumentMoniker": "..\\..\\MVC_Day03\\Lab3\\Lab3\\Migrations\\20250323121815_secondone.cs",
+              "ToolTip": "E:\\iti-intake-45\\15-C#\\MVC\\MVC_Day03\\Lab3\\Lab3\\Migrations\\20250323121815_secondone.cs",
+              "RelativeToolTip": "..\\..\\MVC_Day03\\Lab3\\Lab3\\Migrations\\20250323121815_secondone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T12:18:15.438Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

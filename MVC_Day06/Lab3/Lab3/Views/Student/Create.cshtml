@@ -1,0 +1,35 @@
+﻿@model Student
+@{
+    // Layout = "_Layout2";
+    SelectList departments = new SelectList(ViewBag.deptList, "DeptId", "DeptName");
+	ViewBag.Title = "Create";
+}
+
+
+    <form asp-action="create" method="post" >
+  @*       <label asp-for="Name"></label> *@
+  @*       <input asp-for="Name" /> *@
+  @*       <br /> *@
+		@* <label asp-for="Age"></label> *@
+		@* <input asp-for="Age" /> *@
+  @*       <br /> *@
+
+		@* <label asp-for="Email"></label> *@
+  @*       <input asp-for="Email"/> *@
+  @*       <br /> *@
+
+		@* <label asp-for="DeptId">Department</label> *@
+  @*       <select asp-for="DeptId" asp-items="departments"> *@
+		@* 	<option>Select Department</option> *@
+  @*       </select> *@
+        <partial name="CreateUpdatePartialView" model="@Model" /> @* this is the partial view*@
+        <input type="submit" value="Add"/>
+    </form>
+    @* lines below are for client-side validation *@
+    
+    @section Scripts {
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    }
+

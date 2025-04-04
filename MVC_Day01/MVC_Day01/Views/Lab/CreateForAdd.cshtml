@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        form{
+            padding-top: 40vh;
+            margin: auto;
+            
+            text-align: center;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateForAdd</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <form action="/lab/add" method="get">
+        <input name="x" type="text" placeholder="x" /> <br /> <br />
+        <input name="y" type="text" placeholder="y" /> <br /> <br />
+        <input type="submit" value="Add" class="btn btn-success" />
+    </form>
+</body>
+</html>

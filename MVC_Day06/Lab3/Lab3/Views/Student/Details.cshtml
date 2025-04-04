@@ -1,0 +1,15 @@
+﻿@model Student
+@{
+    // Layout = "_Layout2";
+	ViewBag.Title = "Details";
+}
+
+
+
+    <div>
+        <h2>@Model.Id</h2>
+        <h2>@Model.Name</h2>
+        <h3>@Model.Age</h3>
+		<h4>@Model.Email</h4>
+        <h4>@Model.Department.DeptName</h4>
+    </div>

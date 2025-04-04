@@ -1,0 +1,35 @@
+﻿@model Student
+@{
+    Layout = null;
+    SelectList departments = new SelectList(ViewBag.deptList, "DeptId", "DeptName");
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <form asp-action="create" method="post" >
+  @*       <label asp-for="Name"></label> *@
+  @*       <input asp-for="Name" /> *@
+  @*       <br /> *@
+		@* <label asp-for="Age"></label> *@
+		@* <input asp-for="Age" /> *@
+  @*       <br /> *@
+
+		@* <label asp-for="Email"></label> *@
+  @*       <input asp-for="Email"/> *@
+  @*       <br /> *@
+
+		@* <label asp-for="DeptId">Department</label> *@
+  @*       <select asp-for="DeptId" asp-items="departments"> *@
+		@* 	<option>Select Department</option> *@
+  @*       </select> *@
+        <partial name="CreateUpdatePartialView" model="@Model" />
+        <input type="submit" value="Add"/>
+    </form>
+</body>
+</html>

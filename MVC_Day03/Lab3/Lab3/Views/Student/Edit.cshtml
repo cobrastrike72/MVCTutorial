@@ -1,0 +1,38 @@
+﻿@model Student
+@{
+    Layout = null;
+    SelectList departments = new SelectList(ViewBag.deptList, "DeptId", "DeptName");
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Update</title>
+</head>
+<body>
+    @* <form asp-action="edit" asp-route-id="@Model.Id"  method="post"> *@
+        @* no need to do the asp-route-id above because he will be directed to the same route and the id will be there in the url *@
+    <form asp-action="edit" method="post">
+        @* <label asp-for="Name"></label> *@
+        @* <input asp-for="Name" /> *@
+        @* <br /> *@
+        @* <label asp-for="Age"></label> *@
+        @* <input asp-for="Age" /> *@
+        @* <br /> *@
+
+        @* <label asp-for="Email"></label> *@
+        @* <input asp-for="Email" /> *@
+        @* <br /> *@
+
+        @* <label asp-for="DeptId">Department</label> *@
+        @* <select asp-for="DeptId" asp-items="departments"> *@
+        @*     <option>Select Department</option> *@
+        @* </select> *@
+
+		<partial name="CreateUpdatePartialView" model="@Model" />
+        <input type="submit" value="update" />
+    </form>
+</body>
+</html>

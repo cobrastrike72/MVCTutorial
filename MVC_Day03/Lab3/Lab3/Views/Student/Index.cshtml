@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Student>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Index</title>
+</head>
+<body>
+    <a href="student/create" class="btn btn-primary">Create</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+				<th>Name</th>
+				<th>Age</th>
+                <th>Dept</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model.Count() == 0)
+            {
+                <tr>
+                    <td colspan="4">No record found.</td>
+                </tr>
+            }
+            else
+            {
+                foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.Id</td>
+                        <td>@student.Name</td>
+						<td>@student.Age</td>
+						<td>@student.Department.DeptName</td>
+                        <td> <a asp-controller="student" asp-action="details" asp-route-id="@student.Id">Details </a> </td>
+                        <td> <a asp-controller="student" asp-action="edit" asp-route-id="@student.Id">Edit </a> </td>
+                        <td> <a asp-controller="student" asp-action="delete" onclick="return confirm('Are you sure to delete?')" asp-route-id="@student.Id">Delete </a> </td>
+                    </tr>
+				}
+			}
+
+
+        </tbody>
+    </table>
+</body>
+</html>

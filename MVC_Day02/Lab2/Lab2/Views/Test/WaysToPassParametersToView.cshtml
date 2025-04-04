@@ -1,0 +1,21 @@
+﻿@model Student // if you didn't use that dirctive Model will be of type dynamic and the resolvatio will be in runtime
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>WaysToPassParametersToView</title>
+    <span>@ViewData["id"]</span>
+    <div>@ViewBag.Id2</div>
+    <div>@Model.Id</div>
+    <div>@Model.Name</div>
+    <div>@Model.Age</div>
+    <div>@Model</div>
+</head>
+<body>
+</body>
+</html>
